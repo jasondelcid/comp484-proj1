@@ -154,6 +154,7 @@ p {
 /*  Hero (This is for the City pages and fulfills the picture requirement)  */
 .hero-media {
   background-image: none;
+  position: relative;
   overflow: hidden;
 }
 
@@ -168,6 +169,12 @@ p {
 .hero-media img {
   object-fit: cover;
   object-position: center;
+  z-index: 1;
+}
+
+.hero-media .hero-overlay {
+  position: relative;
+  z-index: 1;
 }
 
 

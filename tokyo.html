@@ -40,19 +40,8 @@
             Provides multiple image widths so the browser picks the best one.
           -->
           <source
-            type="image/webp"
-            srcset="
-              images/tokyo-hero-1200.webp 1200w,
-              images/tokyo-hero-2000.webp 2000w
-            "
-            sizes="100vw"
-          />
-          <source
             type="image/jpeg"
-            srcset="
-              images/tokyo-hero-1200.jpg 1200w,
-              images/tokyo-hero-2000.jpg 2000w
-            "
+            srcset="images/tokyo.jpg 600w, images/tokyo.jpg 1200w"
             sizes="100vw"
           />
 
@@ -61,8 +50,8 @@
             Hint to decode the image asynchronously for smoother page rendering.
           -->
           <img
-            src="images/tokyo-hero-1200.jpg"
-            alt="Tokyo skyline at dusk with city lights"
+            src="images/tokyo.jpg"
+            alt="Tokyo neon city lights"
             decoding="async"
           />
         </picture>
@@ -71,7 +60,7 @@
           <div class="hero-content">
             <h1 id="tokyo-title">Tokyo</h1>
             <p class="hero-subtitle">
-              Big, bright, and surprisingly calm — a first-timer guide to
+              Big, bright, and surprisingly calm -- a first-timer guide to
               navigating Tokyo with confidence.
             </p>
 
