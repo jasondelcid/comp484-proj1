@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tokyo | Japan: A First-Timer’s Guide</title>
+    <meta
+      name="description"
+      content="A first-timer friendly Tokyo guide: essentials, etiquette, must-see experiences, and iconic foods."
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Header and Nav (same structure as homepage) -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="site-title" href="index.html">Japan: A First-Timer’s Guide</a>
+
+        <nav aria-label="Primary navigation">
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="tokyo.html">Tokyo</a></li>
+            <li><a href="kyoto.html">Kyoto</a></li>
+            <li><a href="osaka.html">Osaka</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero (Tokyo) -->
+      <section class="hero hero-media" aria-labelledby="tokyo-title">
+        <!--
+          MDN ELEMENT: <picture>
+        -->
+        <picture>
+          <!--
+            MDN ATTRIBUTE: srcset
+            Provides multiple image widths so the browser picks the best one.
+          -->
+          <source
+            type="image/webp"
+            srcset="
+              images/tokyo-hero-1200.webp 1200w,
+              images/tokyo-hero-2000.webp 2000w
+            "
+            sizes="100vw"
+          />
+          <source
+            type="image/jpeg"
+            srcset="
+              images/tokyo-hero-1200.jpg 1200w,
+              images/tokyo-hero-2000.jpg 2000w
+            "
+            sizes="100vw"
+          />
+
+          <!--
+            MDN ATTRIBUTE: decoding="async"
+            Hint to decode the image asynchronously for smoother page rendering.
+          -->
+          <img
+            src="images/tokyo-hero-1200.jpg"
+            alt="Tokyo skyline at dusk with city lights"
+            decoding="async"
+          />
+        </picture>
+
+        <div class="hero-overlay">
+          <div class="hero-content">
+            <h1 id="tokyo-title">Tokyo</h1>
+            <p class="hero-subtitle">
+              Big, bright, and surprisingly calm — a first-timer guide to
+              navigating Tokyo with confidence.
+            </p>
+
+            <p class="hero-kicker">
+              Phrase:
+              <!--
+                MDN ELEMENT: <ruby>
+                Ruby text is used in Japanese to show pronunciation (furigana).
+              -->
+              <ruby>ありがとう<rt>arigatō</rt></ruby>
+              (thank you)
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Content -->
+      <section class="section">
+        <div class="container">
+          <h2>Tokyo essentials</h2>
+          <p class="lead">
+            Tokyo is a collection of “mini-cities” connected by an excellent
+            rail network. Pick one neighborhood base and everything feels
+            simpler.
+          </p>
+
+          <div class="grid cards-3">
+            <article class="card">
+              <h3>Getting around</h3>
+              <ul>
+                <li>
+                  <strong>IC card:</strong> Suica / PASMO makes transit and
+                  convenience stores easy.
+                </li>
+                <li>
+                  <strong>Rush hour:</strong> Avoid 7:30–9:30 AM and 5:30–7:30
+                  PM if possible.
+                </li>
+                <li>
+                  <strong>Stations:</strong> Follow signs and exits
+                  carefully—big stations are mini-maze cities.
+                </li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Etiquette basics</h3>
+              <ul>
+                <li>Keep voices low on trains.</li>
+                <li>Carry a little cash for smaller shops.</li>
+                <li>Trash bins are rare—bring a small bag.</li>
+              </ul>
+            </article>
+
+            <!--
+              MDN ELEMENT: <aside>
+              Used for supporting info (helpful tips) related to the main content.
+            -->
+            <aside class="card" aria-label="Quick Tokyo tips">
+              <h3>Quick tips</h3>
+              <ul>
+                <li>Stand to one side on escalators (varies by area).</li>
+                <li>
+                  Learn two lines near your hotel (e.g., Yamanote + one subway).
+                </li>
+                <li>Convenience stores are great for quick breakfast.</li>
+              </ul>
+
+              <p style="margin-top: 0.75rem">
+                Helpful links:
+                <!--
+                  MDN ATTRIBUTE: referrerpolicy
+                  Applied to external links to control referrer information for privacy/security.
+                -->
+                <a
+                  class="link"
+                  href="https://www.gotokyo.org/en/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  referrerpolicy="no-referrer"
+                >
+                  Official GO TOKYO site →
+                </a>
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experiences to Visit -->
+      <section class="section section-alt">
+        <div class="container">
+          <h2>Experiences to Visit</h2>
+          <p class="lead">
+            Iconic places that define Tokyo’s energy and culture.
+          </p>
+
+          <div class="grid cards-3">
+            <article class="card">
+              <h3>Tokyo DisneySea</h3>
+              <ul>
+                <li>Unique Disney park found only in Japan</li>
+                <li>Immersive themed lands and attractions</li>
+                <li>Perfect for families and Disney fans</li>
+              </ul>
+              <a
+                class="link"
+                href="https://www.tokyodisneyresort.jp/en/tds/"
+                target="_blank"
+                rel="noopener noreferrer"
+                referrerpolicy="no-referrer"
+              >
+                Official Website →
+              </a>
+            </article>
+
+            <article class="card">
+              <h3>Shibuya Crossing</h3>
+              <ul>
+                <li>World-famous pedestrian scramble</li>
+                <li>Symbol of Tokyo’s fast-paced lifestyle</li>
+                <li>Best viewed from nearby cafés or rooftops</li>
+              </ul>
+              <a
+                class="link"
+                href="https://maps.google.com/?q=Shibuya+Crossing+Tokyo"
+                target="_blank"
+                rel="noopener noreferrer"
+                referrerpolicy="no-referrer"
+              >
+                View on Google Maps →
+              </a>
+            </article>
+
+            <article class="card">
+              <h3>teamLab Planets</h3>
+              <ul>
+                <li>Interactive digital art museum</li>
+                <li>Immersive light and projection experiences</li>
+                <li>One of Tokyo’s most unique attractions</li>
+              </ul>
+              <a
+                class="link"
+                href="https://www.teamlab.art/e/planets/"
+                target="_blank"
+                rel="noopener noreferrer"
+                referrerpolicy="no-referrer"
+              >
+                Official Website →
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Food to Try -->
+      <section class="section">
+        <div class="container">
+          <h2>Food to Try in Tokyo</h2>
+          <p class="lead">Three iconic dishes you shouldn’t miss.</p>
+
+          <div class="grid cards-3">
+            <article class="card">
+              <h3>Sushi</h3>
+              <ul>
+                <li>Fresh seafood prepared with precision</li>
+                <li>Try it at Tsukiji Outer Market</li>
+                <li>From casual spots to Michelin-star dining</li>
+              </ul>
+              <a
+                class="link"
+                href="https://maps.google.com/?q=Tsukiji+Outer+Market"
+                target="_blank"
+                rel="noopener noreferrer"
+                referrerpolicy="no-referrer"
+              >
+                Find Tsukiji Market →
+              </a>
+            </article>
+
+            <article class="card">
+              <h3>Ramen</h3>
+              <ul>
+                <li>Rich broth with noodles and toppings</li>
+                <li>Popular late-night comfort food</li>
+                <li>Each shop has its own unique flavor</li>
+              </ul>
+              <a
+                class="link"
+                href="https://maps.google.com/?q=Ichiran+Ramen+Tokyo"
+                target="_blank"
+                rel="noopener noreferrer"
+                referrerpolicy="no-referrer"
+              >
+                Popular Ramen Spot →
+              </a>
+            </article>
+
+            <article class="card">
+              <h3>Tonkatsu</h3>
+              <ul>
+                <li>Crispy breaded pork cutlet</li>
+                <li>Served with rice and shredded cabbage</li>
+                <li>Simple, filling, and deeply satisfying</li>
+              </ul>
+              <a
+                class="link"
+                href="https://maps.google.com/?q=Maisen+Tonkatsu+Tokyo"
+                target="_blank"
+                rel="noopener noreferrer"
+                referrerpolicy="no-referrer"
+              >
+                Recommended Restaurant →
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; 2026 Japan: A First-Timer’s Guide • COMP 484 Project 1</p>
+      </div>
+    </footer>
+  </body>
+</html>
